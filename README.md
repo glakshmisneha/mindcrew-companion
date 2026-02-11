@@ -1,7 +1,10 @@
 🧠 MindCrew Companion
+
+
 MindCrew Companion is an AI-powered wellness platform built to provide instant empathetic support and motivational guidance. By combining high-speed LLMs with a "Calm Tech" design philosophy, it offers a stigma-free space for emotional grounding.
 
 🚀 Technical Architecture
+
 The platform is engineered for speed, responsiveness, and aesthetic tranquility using a modern Python-based stack.
 
 Core Technologies
@@ -12,6 +15,7 @@ Intelligence Engine: Powered by Google Gemini API, specifically the gemini-1.5-f
 Visual Design: Features a Glassmorphic UI achieved through custom CSS injection, utilizing blur effects and semi-transparent layers over dynamic gradients to reduce user anxiety.
 
 🛠️ Functional Modules
+
 1. Navigation & State Controller
 Functions as the application "router." It uses Streamlit Session State to track user movement between the Dashboard, Mood Advisor, and Chat Support without refreshing the page or losing conversation data.
 
@@ -29,6 +33,7 @@ A multi-turn conversation engine that maintains a persistent "message history" i
 A robust backend script that automatically scans the user’s API tier for the most efficient "Flash" model variant. This ensures the application remains functional even if specific Google model versions are updated or retired.
 
 💻 Key Implementation: Dynamic AI Support
+
 The get_ai_response function serves as the central brain, automating model selection to ensure the best performance at all times:
 
 Python
@@ -39,6 +44,7 @@ def get_ai_response(prompt):
     
     # Model generation logic follows...
 📦 Deployment Process
+
 Environment Parity: All dependencies are strictly managed via requirements.txt to ensure consistent performance across different environments.
 
 Security First: Sensitive API keys are never hardcoded; they are managed through Streamlit Secrets Management or environment variables.
