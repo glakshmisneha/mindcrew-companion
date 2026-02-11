@@ -1,4 +1,5 @@
-#MindCrew Companion 
+MindCrew Companion:
+
 MindCrew Companion is a specialized AI-driven wellness application designed to provide empathetic support and motivational guidance. This document outlines the technical architecture and the functional modules that power the platform.
 
 Technical Architecture
